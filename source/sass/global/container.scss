@@ -1,0 +1,21 @@
+// TODO Исправить размеры контенера
+.container {
+  display: block;
+  width: 280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .container {
+    width: 728px;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .container {
+    width: 1360px;
+    padding: 0 40px;
+  }
+}
