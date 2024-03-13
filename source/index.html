@@ -16,8 +16,27 @@
 
 <body class="page-body">
   <section class="hero" data-test="hero">
-    <header>1</header>
+    <div class="container">
+      <header class="header">
+        <img class="logo" src="img/logo.svg" width="100" height="20" alt="Логотип SUPERGYM.">
+        <a class="header__tel" href="tel:88005555555">8 800 555-55-55</a>
+      </header>
+
+      <p class="hero__city">Омск</p>
+
+      <div class="hero__wrapper">
+        <ul class="hero__list">
+          <li class="hero__item">Тренажёрный зал</li>
+          <li class="hero__item">Групповые занятия</li>
+          <li class="hero__item">Кардио-зона</li>
+        </ul>
+        <h1 class="hero__title">ФИТНЕС ЦЕНТР</h1>
+      </div>
+
+      <a class="hero__button" href="#">Купить абонемент</a>
+    </div>
   </section>
+
 </body>
 
 </html>
@@ -27,6 +46,8 @@
     <svg>
       <use href="/__spritemap#sprite-user"></use>
     </svg> -->
+
+
 <!-- примеры требуемых атрибутов data-test="*" -->
 <!-- <div data-test="hero">hero</div>
 
@@ -40,5 +61,6 @@
      <div data-test="reviews">reviews</div>
      <div data-test="form">form</div>
      <div data-test="footer">footer</div>
+
     <script type="module" src="js/main.js"></script>
    -->
