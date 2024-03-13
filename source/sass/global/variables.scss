@@ -1,21 +1,29 @@
 //width
-//TODO Указать ширину
 $tablet-width: 768px;
-$desktop-width: 1440px;
+$desktop-width: 1366px;
 
-// //Base Colors
-// $base-white: #ffffff;
-// $base-grey: #bdbdbd;
-// $base-black: #333333;
-// $base-primary: #7859cf;
-// $base-secondary: #f0ebff;
-// //Alt Colors
-// $primary-opacity: rgba(120, 89, 207, 0.25);
-// $primary-lighter: #9070ec;
-// $primary-darker: #593cac;
-// $light-grey: #e2e2e2;
-// //Background Colors
-// $lightest-grey: #f8f8f8;
-// $flat-white: #f3ebe1;
-// $lavender-latte: #eae6fc;
-// $espresso: #e5e6e8;
+//Base Colors
+$base: #102654;
+$base-white: #ffffff;
+$additional: #103aae;
+$border: #1c3374;
+$tab: #d10a42;
+$error: #ff121f;
+
+//Background Colors
+$background-base: #ffffff;
+$background-additional: #f8f9fc;
+$background-dark: #102654;
+$background-banner: #ed0233;
+$background-footer: #030a1a;
+$background-block: #1c3374;
+
+//Gradient
+$main-gradient-start: #003d85;
+$main-gradient-end: #b80027;
+
+$additional-gradient-start: #d10a42;
+$additional-gradient-end: #0041ca;
+
+$button-gradient-start: #ed0233;
+$button-gradient-end: #003eb7;
