@@ -35,11 +35,50 @@
         </div>
 
         <!-- TODO Добавить прокрутку до абонименты -->
+        <!-- TODO Добавить интерактив кнопке -->
         <a class="hero__button" href="#">Купить абонемент</a>
       </div>
     </div>
   </section>
+  <main>
+    <section class="about" data-test="about">
+      <div class="about__wrapper-text">
+        <h2 class="about__title">Тренажёрный зал</h2>
+        <b class="about__info">Просторный зал площадью 900 кв/м</b>
+        <div class="about-content">
+          <!-- TODO Добавить стилизацию по каскаду -->
+          <p>Supergym – самый большой фитнес центр за Уралом и идеальное место для укрепления тела и здоровья.
+            Тренажёрный
+            зал оснащён всем необходимым современным оборудованием для всех спортсменов.</p>
+          <p>В зале расположены отдельная зона для Crossfit и кардио-зона с 40 тренажёрами. Также в фитнес центре
+            есть несколько оборудованных залов для различных видов групповых занятий.</p>
+        </div>
+      </div>
+      <div class="about__wrapper-video">
+        <picture>
+          <!-- TODO Добавить webp -->
+          <source media="(min-width: 1366px)" srcset="img/about-desktop.jpg">
+          <source media="(min-width: 768px)" srcset="img/about-tablet.jpg">
+          <img class="about__img" src="img/about-mobile.jpg" width="320" height="280" alt="тренажёрный зал.">
+        </picture>
 
+        <div class="video">
+          <a href="https://www.youtube.com/watch?v=9TZXsZItgdw" target="_blank">
+            <picture>
+              <!-- FIXME Не та привъюшка -->
+              <source media="(min-width: 1366px)" srcset="img/video-preview-desktop.png">
+              <source media="(min-width: 768px)" srcset="img/video-preview-tablet.png">
+              <img class="video__img" src="img/video-preview-mobile.png" width="320" height="170"
+                alt="видео про тренажёрный зал.">
+            </picture>
+          </a>
+          <button class="video__btn">
+            <span class="visually-hidden ">Запустить видео</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
@@ -53,8 +92,8 @@
 
 <!-- примеры требуемых атрибутов data-test="*" -->
 <!-- <div data-test="hero">hero</div>
-
      <div data-test="about">about</div>
+
      <div data-test="price">price</div>
      <div data-test="games">games</div>
      <div data-test="juri">juri</div>
