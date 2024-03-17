@@ -1,0 +1,60 @@
+.juri-card {
+  width: 227px;
+  height: 280px;
+  position: relative;
+}
+
+.juri-card__img-wrapper {
+  position: relative;
+}
+
+.juri-card__img {
+  display: block;
+  width: 227px;
+  height: 280px;
+}
+
+.juri-card__name {
+  font-size: 22px;
+  font-size: 22px;
+  color: $base-white;
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.juri-card:hover .juri-card__name,
+.juri-card:focus .juri-card__name {
+  display: none;
+}
+
+.juri-card__info-wrapper {
+  position: absolute;
+  background-color: rgba($color: $base, $alpha: 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  color: $base-white;
+}
+
+.juri-card:hover .juri-card__info-wrapper,
+.juri-card:focus .juri-card__info-wrapper {
+  display: block;
+}
+
+.juri-card__title {
+  text-align: center;
+}
+
+.juri-card__info {
+  text-align: center;
+}
+
+.juri-card__list {}
+
+.juri-card__item {}
