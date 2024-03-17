@@ -1,0 +1,80 @@
+.features {}
+
+.features__title {
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.features__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.features__item {
+  text-align: center;
+}
+
+.features__item--dark {
+  color: $base-white;
+  background-color: $base;
+}
+
+.features__number {
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.features__info {
+  display: block;
+}
+
+.features__card-title {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.features__text {
+  width: 230px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .features {
+    display: block;
+    width: 678px;
+    padding: 0 45px;
+    margin: 0 auto;
+  }
+
+  .features__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .features__item--dark {
+    width: 320px;
+    margin: 0 auto;
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .features {
+    width: 1160px;
+    padding: 0 103px;
+  }
+
+  .features__list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .features__item--dark {
+    padding-top: 100px;
+    grid-column: 2 / 3;
+    grid-row: 1 / -3;
+  }
+}
