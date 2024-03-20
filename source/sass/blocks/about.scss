@@ -1,4 +1,6 @@
-// .about {}
+.about {
+  padding-top: 41px;
+}
 
 .about__wrapper-text {
   width: 290px;
@@ -10,12 +12,16 @@
   font-family: "Alumni Sans", sans-serif;
   font-size: 32px;
   line-height: 32px;
-  font-weight: 700;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .about__info {
   font-size: 18px;
   line-height: 20px;
+  display: block;
+  margin-bottom: 37px;
 }
 
 .about__img {
