@@ -1,15 +1,23 @@
-// .price {}
+.price {
+  padding-top: 41px;
+  padding-bottom: 1px;
+  //TODO Добавить фоновый цвет
+  background-color: aqua;
+}
 
 .price__title {
   font-family: "Alumni Sans", sans-serif;
   font-size: 32px;
   line-height: 32px;
-  font-weight: 700;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 10px;
   text-align: center;
 }
 
 .price__tab-list {
   margin: 0;
+  margin-bottom: 30px;
   padding: 0;
   list-style: none;
   display: flex;

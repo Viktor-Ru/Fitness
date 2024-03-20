@@ -1,5 +1,6 @@
 .about {
   padding-top: 41px;
+  padding-bottom: 40px;
 }
 
 .about__wrapper-text {
@@ -14,14 +15,14 @@
   line-height: 32px;
   font-weight: 600;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 11px;
 }
 
 .about__info {
   font-size: 18px;
   line-height: 20px;
   display: block;
-  margin-bottom: 37px;
+  margin-bottom: 36px;
 }
 
 .about__img {
@@ -30,6 +31,7 @@
   min-width: 320px;
   width: 320px;
   height: 280px;
+  margin-bottom: 36px;
 }
 
 @media (min-width: $tablet-width) {

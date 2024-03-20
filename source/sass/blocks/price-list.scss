@@ -5,32 +5,55 @@
   text-align: center;
 }
 
+.price-list__item {
+  padding: 43px 33px 45px 33px;
+  margin-bottom: 35px;
+  background-color: $base-white;
+  border: 7px solid $base-white;
+
+  &:hover,
+  &:focus {
+    border-image: linear-gradient(97.05deg, #ED0233 17.6%, #003EB7 95.31%) 1;
+  }
+}
+
 .price-list__title {
+  margin: 0;
+  margin-bottom: 17px;
   font-size: 22px;
   line-height: 22px;
   font-weight: 700;
 }
 
+.price-list__text {
+  margin: 0;
+  margin-bottom: 72px;
+}
+
 .price-list__price {
+  //TODO Добавить тень для цифр
   position: relative;
   text-align: left;
   display: inline-block;
   margin: 0;
-  padding-right: 51px;
+  padding-right: 35px;
   font-size: 48px;
-  line-height: 150px;
+  line-height: 100px;
   font-weight: 700;
   color: $additional;
+  margin-bottom: 15px;
 
   &::before {
     content: "";
     position: absolute;
     width: 24px;
-    height: 33px;
+    height: 56px;
     right: 0px;
     top: 50%;
     transform: translateY(-50%);
-    background-color: aqua;
+    background-image: url("/__spritemap#sprite-play-ru");
+    background-repeat: no-repeat;
+    background-position: top center;
   }
 }
 
@@ -38,11 +61,13 @@
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
   text-transform: uppercase;
   color: $base;
   cursor: pointer;
   display: block;
-  padding: 25px 42px;
+  padding: 24px 43px 25px 43px;
   border: 2px solid $base;
   width: fit-content;
   margin: 0 auto;
