@@ -56,7 +56,27 @@
   font-weight: 700;
   border: solid 2px $base-white;
   padding: 22px;
+
+  &:focus:not(.hero__button--disabled) {
+    color: $base-white;
+    border-color: $base;
+    background-image: linear-gradient(97.05deg, rgba(237, 2, 51, 0.8) 17.6%, rgba(0, 62, 183, 0.8));
+  }
+
+  &:hover:not(.hero__button--disabled),
+  &:active:not(.hero__button--disabled) {
+    color: $base-white;
+    background-image: linear-gradient(97.05deg, #ED0233 17.6%, #003EB7 95.31%);
+    border-image: linear-gradient(97.05deg, #ED0233 17.6%, #003EB7 95.31%) 1;
+  }
 }
+
+.hero__button--disabled {
+  color: transparent;
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
 
 @media (min-width: $tablet-width) {
   .hero {
