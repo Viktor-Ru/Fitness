@@ -1,8 +1,7 @@
 .price {
   padding-top: 41px;
   padding-bottom: 1px;
-  //TODO Добавить фоновый цвет
-  background-color: aqua;
+  background-color: $background-additional;
 }
 
 .price__title {
@@ -56,9 +55,30 @@
   border-bottom: 2px solid $tab;
 }
 
-// @media (min-width: $tablet-width) {
+@media (min-width: $tablet-width) {
+  .price {
+    padding-top: 64px;
+    padding-bottom: 20px;
+  }
 
-// }
+  .price__title {
+    font-size: 42px;
+    line-height: 42px;
+    margin-bottom: 17px;
+  }
+
+  .price__tab-list {
+    margin: 0 auto;
+    margin-bottom: 44px;
+    width: 310px;
+  }
+
+  .price__tab-btn {
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 7px;
+  }
+}
 
 // @media (min-width: $desktop-width) {
 

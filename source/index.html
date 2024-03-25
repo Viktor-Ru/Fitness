@@ -42,14 +42,14 @@
     <section class="about" data-test="about">
       <div class="about__wrapper-text">
         <h2 class="about__title">Тренажёрный зал</h2>
-        <b class="about__info">Просторный зал площадью 900 кв/м</b>
+        <b class="about__info">Просторный зал площадью 900 кв/м</b>
         <div class="about-content">
           <p>Supergym – самый большой фитнес центр за&nbsp;Уралом и идеальное место для&nbsp;укрепления тела и здоровья.
             Тренажёрный зал оснащён всем необходимым современным оборудованием для&nbsp;всех спортсменов.</p>
 
           <div>
-            <p>В зале расположены отдельная зона для Crossfit и кардио-зона с 40 тренажёрами. Также в фитнес центре
-              есть несколько оборудованных залов для различных видов групповых занятий.</p>
+            <p>В зале расположены отдельная зона для Crossfit и&nbsp;кардио-зона с 40 тренажёрами. Также в фитнес центре
+              есть несколько оборудованных залов для&nbsp;различных видов групповых занятий.</p>
           </div>
         </div>
       </div>
@@ -64,7 +64,6 @@
         <div class="video">
           <a href="https://www.youtube.com/watch?v=9TZXsZItgdw" target="_blank">
             <picture>
-              <!-- FIXME Не та привъюшка -->
               <source media="(min-width: 1366px)" srcset="img/video-preview-desktop.png">
               <source media="(min-width: 768px)" srcset="img/video-preview-tablet.png">
               <img class="video__img" src="img/video-preview-mobile.png" width="320" height="170"
@@ -136,7 +135,13 @@
         <p class="games__game">Ежегодные соревнования по CrossFit</p>
         <a class="games__btn" href="#">заполнить заявку</a>
       </div>
-      <img class="games__img" src="" alt="">
+
+      <picture>
+        <!-- TODO Добавить webp -->
+        <source media="(min-width: 1366px)" srcset="img/games-desktop.jpg">
+        <source media="(min-width: 768px)" srcset="img/games-tablet.jpg">
+        <img class="games__img" src="img/games-mobile.jpg" width="320" height="280" alt="тренажёрный зал.">
+      </picture>
     </section>
 
     <section class="juri container" data-test="juri">

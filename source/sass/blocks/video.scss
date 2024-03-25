@@ -12,7 +12,7 @@
 }
 
 .video__btn {
-  // display: none;
+  // display: none; BUG Для JS
   cursor: pointer;
   position: absolute;
   width: 72px;
@@ -104,7 +104,7 @@
 
 @media (min-width: $tablet-width) {
   .video {
-    margin-top: -100px;
+    margin-top: -121px;
     width: 270px;
     height: 170px;
   }
@@ -118,7 +118,7 @@
 @media (min-width: $desktop-width) {
   .video {
     margin: 0;
-    margin-top: -100px;
+    margin-top: -115px;
     margin-right: auto;
     width: 360px;
     height: 230px;
