@@ -59,6 +59,7 @@
   .price {
     padding-top: 64px;
     padding-bottom: 20px;
+    // TODO Добавить фоновое изображение
   }
 
   .price__title {
@@ -80,6 +81,25 @@
   }
 }
 
-// @media (min-width: $desktop-width) {
+@media (min-width: $desktop-width) {
+  .price {
+    padding-top: 101px;
+    padding-bottom: 100px;
+  }
 
-// }
+  .price__title {
+    font-size: 54px;
+    line-height: 54px;
+    margin-bottom: 3px;
+  }
+
+  .price__tab-list {
+    margin-bottom: 40px;
+    width: 350px;
+  }
+
+  .price__tab-btn {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}

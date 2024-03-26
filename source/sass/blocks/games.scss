@@ -185,3 +185,67 @@
     padding: 25px 10px 25px 10px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .games {
+    padding-top: 100px;
+  }
+
+  .games__text-wrapper {
+    width: 340px;
+    padding: 60px 80px 10px 80px;
+  }
+
+  .games__info-wrapper {
+    grid-template-columns: 170px 1fr;
+    column-gap: 75px;
+  }
+
+  .games__date-wrapper {
+    padding: 0;
+  }
+
+  .games__title {
+    font-size: 82px;
+    line-height: 96px;
+  }
+
+  .games__date-text {
+    padding: 0;
+    padding-bottom: 5px;
+  }
+
+  .games__date {
+    padding-left: 0;
+    padding-top: 3px;
+    margin-bottom: 20px;
+  }
+
+  .games__date-month {
+    margin-bottom: 2px;
+  }
+
+  .games__date-number {
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 4px;
+  }
+
+  .games__date-time {
+    font-size: 40px;
+    line-height: 40px;
+    padding: 0;
+    padding-top: 6px;
+  }
+
+  .games__game {
+    margin-top: 28px;
+    margin-bottom: 32px;
+  }
+
+  .games__img {
+    display: block;
+    width: 660px;
+    height: 500px;
+  }
+}
