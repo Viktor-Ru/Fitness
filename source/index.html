@@ -155,18 +155,73 @@
       <h2 class="juri__title">Жюри</h2>
 
       <ul class="juri__list">
-        <!-- TODO добавить остальные карточки -->
-        <li class="juri-card" tabindex="0">
+        <li class="juri-card juri-card--1" tabindex="0">
           <div class="juri-card__img-wrapper">
             <picture>
               <source type="image/webp" srcset="img/juri-card-1.webp">
-              <img class="juri-card__img" src="img/juri-card-1.jpg" width="227" height="280" alt="Александр Пашков.">
+              <img class="juri-card__img" src="img/juri-card-1.jpg" width="227" height="280" alt="Анна Павлова.">
+            </picture>
+            <b class="juri-card__name">Анна Павлова</b>
+          </div>
+          <div class="juri-card__info-wrapper">
+            <h3 class="juri-card__title">Анна Павлова</h3>
+            <p class="juri-card__info">CrossFit</p>
+            <ul class="juri-card__list">
+              <li class="juri-card__item">Certified Level 3 Trainer</li>
+              <li class="juri-card__item">Победитель чемпионата России по CrossFit</li>
+              <li class="juri-card__item">Опыт — 6 лет</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="juri-card juri-card--2" tabindex="0">
+          <div class="juri-card__img-wrapper">
+            <picture>
+              <source type="image/webp" srcset="img/juri-card-2.webp">
+              <img class="juri-card__img" src="img/juri-card-2.jpg" width="227" height="280" alt="Алексей Лавров.">
+            </picture>
+            <b class="juri-card__name">Алексей Лавров</b>
+          </div>
+          <div class="juri-card__info-wrapper">
+            <h3 class="juri-card__title">Алексей Лавров</h3>
+            <p class="juri-card__info">CrossFit</p>
+            <ul class="juri-card__list">
+              <li class="juri-card__item">Certified Level 3 Trainer</li>
+              <li class="juri-card__item">Победитель чемпионата России по CrossFit</li>
+              <li class="juri-card__item">Опыт — 6 лет</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="juri-card juri-card--3" tabindex="0">
+          <div class="juri-card__img-wrapper">
+            <picture>
+              <source type="image/webp" srcset="img/juri-card-3.webp">
+              <img class="juri-card__img" src="img/juri-card-3.jpg" width="227" height="280" alt="Александр Пашков.">
             </picture>
             <b class="juri-card__name">Александр Пашков</b>
           </div>
-
           <div class="juri-card__info-wrapper">
             <h3 class="juri-card__title">Александр Пашков</h3>
+            <p class="juri-card__info">CrossFit</p>
+            <ul class="juri-card__list">
+              <li class="juri-card__item">Certified Level 3 Trainer</li>
+              <li class="juri-card__item">Победитель чемпионата России по CrossFit</li>
+              <li class="juri-card__item">Опыт — 6 лет</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="juri-card juri-card--4" tabindex="0">
+          <div class="juri-card__img-wrapper">
+            <picture>
+              <source type="image/webp" srcset="img/juri-card-4.webp">
+              <img class="juri-card__img" src="img/juri-card-4.jpg" width="227" height="280" alt="Мария Кетова.">
+            </picture>
+            <b class="juri-card__name">Мария Кетова</b>
+          </div>
+          <div class="juri-card__info-wrapper">
+            <h3 class="juri-card__title">Мария Кетова</h3>
             <p class="juri-card__info">CrossFit</p>
             <ul class="juri-card__list">
               <li class="juri-card__item">Certified Level 3 Trainer</li>
@@ -178,55 +233,64 @@
       </ul>
     </section>
     <section class="features" data-test="features">
-      <h2 class="features__title">Наши преимущества</h2>
+      <div class="container">
+        <h2 class="features__title">Наши преимущества</h2>
 
-      <ul class="features__list">
-        <!-- FIXME Стилизовать по каскаду -->
-        <!-- 1 -->
-        <li class="features__item">
-          <p class="features__number-wrapper">
-            <span class="features__number">900</span>
-            <span class="features__info">кв/м</span>
-          </p>
-          <h3 class="features__card-title">Площадь</h3>
-          <p class="features__text">Занимайтесь без очередей и толкучки</p>
-        </li>
-        <!-- 2 -->
-        <li class="features__item">
-          <p class="features__number-wrapper">
-            <span class="features__number">70</span>
-            <span class="features__info">машин</span>
-          </p>
-          <h3 class="features__card-title">Собственная парковка</h3>
-          <p class="features__text">Вы всегда найдёте место для своей машины на нашей парковке</p>
-        </li>
-        <!-- 3 -->
-        <li class="features__item features__item--dark">
-          <p class="features__number-wrapper">
-            <span class="features__number">100</span>
-            <span class="features__info">Тренажёров</span>
-          </p>
-          <p class="features__text">Современные тренажёры на все группы мышц</p>
-        </li>
-        <!-- 4 -->
-        <li class="features__item">
-          <p class="features__number-wrapper">
-            <span class="features__number">350</span>
-            <span class="features__info">мест</span>
-          </p>
-          <h3 class="features__card-title">Комфорт</h3>
-          <p class="features__text">Просторные раздевалки, душевые, фен, Wi-Fi, кулеры</p>
-        </li>
-        <!-- 5 -->
-        <li class="features__item">
-          <p class="features__number-wrapper">
-            <span class="features__number">5+</span>
-            <span class="features__info">лет</span>
-          </p>
-          <h3 class="features__card-title">Тренерский опыт</h3>
-          <p class="features__text">Добивайтесь своих целей быстрее с профессиональным тренером</p>
-        </li>
-      </ul>
+        <ul class="features__list">
+          <!-- 1 -->
+          <li class="features__item">
+            <div>
+              <b>900</b>
+              <span>кв/м</span>
+            </div>
+            <div>
+              <h3>Площадь</h3>
+              <p>Занимайтесь без очередей и толкучки</p>
+            </div>
+          </li>
+          <!-- 2 -->
+          <li class="features__item">
+
+            <div>
+              <b>70</b>
+              <span>машин</span>
+            </div>
+            <div>
+              <h3>Собственная парковка</h3>
+              <p>Вы всегда найдёте место для своей машины на нашей парковке</p>
+            </div>
+
+          </li>
+          <!-- 3 -->
+          <li class="features__item features__item--dark">
+            <b>100</b>
+            <span>Тренажёров</span>
+            <p>Современные тренажёры на все группы мышц</p>
+          </li>
+          <!-- 4 -->
+          <li class="features__item">
+            <div>
+              <b>350</b>
+              <span>мест</span>
+            </div>
+            <div>
+              <h3>Комфорт</h3>
+              <p>Просторные раздевалки, душевые, фен, Wi-Fi, кулеры</p>
+            </div>
+          </li>
+          <!-- 5 -->
+          <li class="features__item">
+            <div>
+              <b>5+</b>
+              <span>лет</span>
+            </div>
+            <div>
+              <h3>Тренерский опыт</h3>
+              <p>Добивайтесь своих целей быстрее с профессиональным тренером</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="offers container" data-test="offers">
       <h2 class="offers__title">Акции</h2>

@@ -1,4 +1,8 @@
-.features {}
+.features {
+  padding-top: 41px;
+  padding-bottom: 6px;
+  background-color: $background-additional;
+}
 
 .features__title {
   font-family: "Alumni Sans", sans-serif;
@@ -6,6 +10,8 @@
   line-height: 32px;
   font-weight: 600;
   text-align: center;
+  margin: 0;
+  margin-bottom: 39px;
 }
 
 .features__list {
@@ -16,49 +22,114 @@
 
 .features__item {
   text-align: center;
+  margin-bottom: 35px;
 }
 
 .features__item--dark {
   color: $base-white;
   background-color: $base;
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-.features__number {
+.features__item b {
+  // TODO Сделать градиент на шрифт
   font-size: 64px;
   line-height: 64px;
+  font-weight: 700;
 }
 
-.features__info {
+.features__item span {
   display: block;
+  margin-bottom: 10px;
 }
 
-.features__card-title {
+.features__item--dark span {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  margin-top: 7px;
+  margin-bottom: 18px;
+}
+
+.features__item h3 {
   font-size: 18px;
   line-height: 20px;
+  margin-top: 5px;
+  margin-bottom: 12px;
 }
 
-.features__text {
+.features__item p {
   width: 230px;
   margin: 0 auto;
 }
 
+
 @media (min-width: $tablet-width) {
   .features {
-    display: block;
-    width: 678px;
-    padding: 0 45px;
-    margin: 0 auto;
+    padding-top: 62px;
+    padding-bottom: 19px;
+  }
+
+  .features__title {
+    font-size: 42px;
+    line-height: 42px;
+    margin-bottom: 43px;
   }
 
   .features__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+  }
+
+  .features__item {
+    display: flex;
+    column-gap: 14px;
+    text-align: left;
+    padding-top: 6px;
+    margin-bottom: 30px;
   }
 
   .features__item--dark {
-    width: 320px;
+    display: block;
+    text-align: center;
+    width: 259px;
     margin: 0 auto;
+    margin-bottom: 34px;
+    padding-top: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 34px;
     grid-column: 1 / -1;
+  }
+
+  .features__item b {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .features__item--dark span {
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 26px;
+  }
+
+
+  .features__item h3 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 13px;
+  }
+
+  .features__item p {
+    font-size: 16px;
+    line-height: 24px;
+    width: auto;
   }
 }
 
