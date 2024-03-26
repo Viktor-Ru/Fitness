@@ -55,7 +55,10 @@
       </div>
       <div class="about__wrapper-video">
         <picture>
-          <!-- TODO Добавить webp -->
+          <source type="image/webp" media="(min-width: 1366px)" srcset="img/about-desktop.webp">
+          <source type="image/webp" media="(min-width: 768px)" srcset="img/about-tablet.webp">
+          <source type="image/webp" srcset="img/about-mobile.webp">
+
           <source media="(min-width: 1366px)" srcset="img/about-desktop.jpg">
           <source media="(min-width: 768px)" srcset="img/about-tablet.jpg">
           <img class="about__img" src="img/about-mobile.jpg" width="320" height="280" alt="тренажёрный зал.">
@@ -138,7 +141,10 @@
       </div>
 
       <picture>
-        <!-- TODO Добавить webp -->
+        <source type="image/webp" media="(min-width: 1366px)" srcset="img/games-desktop.webp">
+        <source type="image/webp" media="(min-width: 768px)" srcset="img/games-tablet.webp">
+        <source type="image/webp" srcset="img/games-mobile.webp">
+
         <source media="(min-width: 1366px)" srcset="img/games-desktop.jpg">
         <source media="(min-width: 768px)" srcset="img/games-tablet.jpg">
         <img class="games__img" src="img/games-mobile.jpg" width="320" height="280" alt="тренажёрный зал.">
@@ -153,7 +159,7 @@
         <li class="juri-card" tabindex="0">
           <div class="juri-card__img-wrapper">
             <picture>
-              <!-- TODO Добавить webp -->
+              <source type="image/webp" srcset="img/juri-card-1.webp">
               <img class="juri-card__img" src="img/juri-card-1.jpg" width="227" height="280" alt="Александр Пашков.">
             </picture>
             <b class="juri-card__name">Александр Пашков</b>
