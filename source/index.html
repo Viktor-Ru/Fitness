@@ -288,25 +288,40 @@
         </ul>
       </div>
     </section>
-    <section class="offers container" data-test="offers">
+    <section class="offers" data-test="offers">
       <h2 class="offers__title">Акции</h2>
 
       <ul class="offers__list">
         <li class="offers__content offers__content--promo">
-          <h3>Год</h3>
-          <b>4999</b>
-          <p>Безлимитный абонемент в тренажёрный зал</p>
-          <a class="offers__link" href="#">подробнее</a>
-          <img class="offers__img" src="" alt="" width="320" height="360">
+          <div>
+            <h3>Год</h3>
+            <b>4999</b>
+            <p>Безлимитный абонемент<br>в тренажёрный зал</p>
+            <a class="offers__link" href="#">подробнее</a>
+          </div>
+          <picture>
+            <source type="image/webp" media="(min-width: 1366px)" srcset="img/offers-desktop.webp">
+            <source type="image/webp" media="(min-width: 768px)" srcset="img/offers-tablet.webp">
+            <source type="image/webp" srcset="img/offers-mobile.webp">
+
+            <source media="(min-width: 1366px)" srcset="img/offers-desktop.jpg">
+            <source media="(min-width: 768px)" srcset="img/offers-tablet.jpg">
+            <img class="offers__img" src="img/offers-mobile.jpg" width="320" height="360"
+              alt="Девушка в спортивной форме.">
+          </picture>
         </li>
         <li class="offers__content">
-          <h3>Месяц бесплатно</h3>
-          <p>Приведи друга, получи абонемент в подарок</p>
+          <div>
+            <h3>Месяц бесплатно</h3>
+            <p>Приведи друга, получи абонемент в подарок</p>
+          </div>
           <a class="offers__link" href="#">подробнее</a>
         </li>
         <li class="offers__content">
-          <h3>Скидка 20%</h3>
-          <p>Корпоративный фитнес с командой</p>
+          <div>
+            <h3>Скидка 20%</h3>
+            <p>Корпоративный фитнес с командой</p>
+          </div>
           <a class="offers__link" href="#">подробнее</a>
         </li>
       </ul>
