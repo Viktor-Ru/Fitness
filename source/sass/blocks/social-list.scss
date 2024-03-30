@@ -1,0 +1,34 @@
+.social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px
+}
+
+.social-list__link {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: aqua;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .social-list {
+    margin-left: auto;
+    gap: 15px;
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .social-list {
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
