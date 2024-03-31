@@ -7,11 +7,11 @@
   <title>SUPERGYM</title>
   <link rel="stylesheet" href="sass/style.scss">
 
-  <link rel="preload" href="fonts/alumni-sans-extra-bold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="fonts/alumni-sans-semi-bold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="fonts/roboto-condensed-bold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="fonts/roboto-condensed-regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="fonts/roboto-condensed-light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/alumni-sans-extra-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/alumni-sans-semi-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/roboto-condensed-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/roboto-condensed-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/roboto-condensed-light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 </head>
 
 <body class="page-body">
@@ -58,20 +58,20 @@
           <source type="image/webp" media="(min-width: 1366px)" srcset="img/about-desktop.webp">
           <source type="image/webp" media="(min-width: 768px)" srcset="img/about-tablet.webp">
           <source type="image/webp" srcset="img/about-mobile.webp">
-          <source media="(min-width: 1366px)" srcset="img/about-desktop.jpg">
-          <source media="(min-width: 768px)" srcset="img/about-tablet.jpg">
+          <source media="(min-width: 1366px)" srcset="img/about-desktop.jpg" type="image/jpg">
+          <source media="(min-width: 768px)" srcset="img/about-tablet.jpg" type="image/jpg">
           <img class="about__img" src="img/about-mobile.jpg" width="320" height="280" alt="тренажёрный зал.">
         </picture>
         <div class="video">
-          <a href="https://www.youtube.com/watch?v=9TZXsZItgdw" target="_blank">
+          <a href="https://www.youtube.com/watch?v=9TZXsZItgdw" target="_blank" rel="noreferrer noopener">
             <picture>
-              <source media="(min-width: 1366px)" srcset="img/video-preview-desktop.png">
-              <source media="(min-width: 768px)" srcset="img/video-preview-tablet.png">
+              <source media="(min-width: 1366px)" srcset="img/video-preview-desktop.png" type="image/jpg">
+              <source media="(min-width: 768px)" srcset="img/video-preview-tablet.png" type="image/jpg">
               <img class="video__img" src="img/video-preview-mobile.png" width="320" height="170"
                 alt="видео про тренажёрный зал.">
             </picture>
           </a>
-          <button class="video__btn">
+          <button class="video__btn" type="button">
             <!-- TODO Исправить размер кнопки -->
             <span class="visually-hidden ">Запустить видео</span>
           </button>
@@ -94,19 +94,19 @@
           </li>
         </ul>
         <ul class="price-list">
-          <li class="price-list__item" tabindex="1">
+          <li class="price-list__item" tabindex="0">
             <h3 class="price-list__title">С тренером</h3>
             <p class="price-list__text">12 занятий</p>
             <p class="price-list__price">5000</p>
             <button class="price-list__btn" type="button">Купить абонемент</button>
           </li>
-          <li class="price-list__item" tabindex="1">
+          <li class="price-list__item" tabindex="0">
             <h3 class="price-list__title">Дневной</h3>
             <p class="price-list__text">с 8:00 до 17:00</p>
             <p class="price-list__price">1700</p>
             <button class="price-list__btn" type="button">Купить абонемент</button>
           </li>
-          <li class="price-list__item" tabindex="1">
+          <li class="price-list__item" tabindex="0">
             <h3 class="price-list__title">Полный день</h3>
             <p class="price-list__text">с 8:00 до 22:00</p>
             <p class="price-list__price">2700</p>
@@ -139,8 +139,8 @@
         <source type="image/webp" media="(min-width: 1366px)" srcset="img/games-desktop.webp">
         <source type="image/webp" media="(min-width: 768px)" srcset="img/games-tablet.webp">
         <source type="image/webp" srcset="img/games-mobile.webp">
-        <source media="(min-width: 1366px)" srcset="img/games-desktop.jpg">
-        <source media="(min-width: 768px)" srcset="img/games-tablet.jpg">
+        <source media="(min-width: 1366px)" srcset="img/games-desktop.jpg" type="image/jpg">
+        <source media="(min-width: 768px)" srcset="img/games-tablet.jpg" type="image/jpg">
         <img class="games__img" src="img/games-mobile.jpg" width="320" height="280" alt="тренажёрный зал.">
       </picture>
     </section>
@@ -291,8 +291,8 @@
             <source type="image/webp" media="(min-width: 1366px)" srcset="img/offers-desktop.webp">
             <source type="image/webp" media="(min-width: 768px)" srcset="img/offers-tablet.webp">
             <source type="image/webp" srcset="img/offers-mobile.webp">
-            <source media="(min-width: 1366px)" srcset="img/offers-desktop.jpg">
-            <source media="(min-width: 768px)" srcset="img/offers-tablet.jpg">
+            <source media="(min-width: 1366px)" srcset="img/offers-desktop.jpg" type="image/jpg">
+            <source media="(min-width: 768px)" srcset="img/offers-tablet.jpg" type="image/jpg">
             <img class="offers__img" src="img/offers-mobile.jpg" width="320" height="360"
               alt="Девушка в спортивной форме.">
           </picture>
