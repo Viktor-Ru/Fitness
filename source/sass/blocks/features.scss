@@ -35,7 +35,10 @@
 }
 
 .features__item b {
-  // TODO Сделать градиент на шрифт
+  background: linear-gradient(127.61deg, #D10A42 0%, #0041CA 45.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-size: 64px;
   line-height: 64px;
   font-weight: 700;
@@ -44,6 +47,11 @@
 .features__item span {
   display: block;
   margin-bottom: 10px;
+}
+
+.features__item--dark b {
+  background: none;
+  -webkit-text-fill-color: inherit;
 }
 
 .features__item--dark span {
@@ -71,6 +79,12 @@
   .features {
     padding-top: 62px;
     padding-bottom: 19px;
+  }
+
+  .features__container {
+    margin: 0 auto;
+    width: 678px;
+    padding: 0 45px;
   }
 
   .features__title {
@@ -137,6 +151,12 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
+
+  .features__container {
+    width: 1160px;
+    padding: 0 103px;
+  }
+
 
   .features__title {
     font-size: 54px;

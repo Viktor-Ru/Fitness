@@ -12,7 +12,6 @@
 }
 
 .video__btn {
-  // display: none; BUG Для JS
   cursor: pointer;
   position: absolute;
   width: 72px;
@@ -122,6 +121,16 @@
     margin-right: auto;
     width: 360px;
     height: 230px;
+  }
+
+  .video__btn {
+    width: 100px;
+    height: 100px;
+
+    &::before {
+      width: 72px;
+      height: 72px;
+    }
   }
 
   .video__img {

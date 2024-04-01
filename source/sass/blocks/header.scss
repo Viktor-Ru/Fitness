@@ -11,11 +11,29 @@
   text-decoration: none;
   color: inherit;
   display: inline-block;
-  padding: 10px 15px;
-  padding-right: 0;
+  padding: 10px 0;
   font-size: 22px;
   line-height: 22px;
   font-weight: 700;
+  border-bottom: 2px solid transparent;
+
+  &:focus:not(.header__tel--disdled) {
+    color: $base;
+  }
+
+  &:hover:not(.header__tel--disdled) {
+    color: rgba($color: $border, $alpha: 0.5);
+  }
+
+  &:active:not(.header__tel--disdled) {
+    color: $background-footer;
+    border-bottom: 2px solid $background-footer;
+  }
+}
+
+.header__tel--disdled {
+  opacity: 0.3;
+  cursor: not-allowed;
 }
 
 @media (min-width: $tablet-width) {
