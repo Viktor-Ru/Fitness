@@ -21,7 +21,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
-  margin-bottom: 37px;
+  margin-bottom: 35px;
 }
 
 .faq__list-togle-btn {
@@ -33,7 +33,7 @@
   cursor: pointer;
   width: 100%;
   padding: 14px;
-
+  padding-bottom: 15px;
 
   &:focus:not(:disabled) {
     border: 1px solid $base;
@@ -212,7 +212,7 @@
 
   .faq__list-question-item {
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 26px;
   }
 
   .faq__list-question-item--active {
@@ -263,16 +263,22 @@
     display: block;
   }
 
+  .faq__list-togle-btn {
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+
   .faq__list-togle-item {
     margin-bottom: 11px;
   }
 
   .faq__list-question-item {
-    padding-bottom: 20px;
+    padding-bottom: 21px;
   }
 
   .faq__list-question-item--active {
-    padding-bottom: 20px;
+    padding-top: 23px;
+    padding-bottom: 21px;
   }
 
   .faq__list-question-item b {

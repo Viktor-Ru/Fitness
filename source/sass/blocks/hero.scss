@@ -1,7 +1,7 @@
 .hero {
   background: linear-gradient(90deg, #1c3477 0%, #1a3578 39.11%, #73184b 75.5%, #b4022a 100%);
   color: $base-white;
-  padding-bottom: 32px;
+  padding-bottom: 30px;
 }
 
 .hero__city {
@@ -121,6 +121,7 @@
   .hero__button {
     width: 185px;
     padding: 20px;
+    padding-bottom: 18px;
     margin-left: auto;
   }
 }
@@ -164,5 +165,6 @@
   .hero__button {
     width: 270px;
     padding: 25px;
+    padding-bottom: 23px;
   }
 }
