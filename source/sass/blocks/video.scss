@@ -12,6 +12,7 @@
 }
 
 .video__btn {
+  color: $base-white;
   cursor: pointer;
   position: absolute;
   width: 72px;
@@ -35,18 +36,6 @@
     background-image: linear-gradient(97.05deg, #ed0233 17.6%, #003eb7 95.31%);
   }
 
-  &::after {
-    position: absolute;
-    content: "";
-    width: 10px;
-    height: 10px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    mask-image: url("/__spritemap#sprite-play-btn");
-    background-color: $base-white;
-  }
-
   &:focus {
     border: 3px solid $base;
   }
@@ -56,21 +45,21 @@
     background-color: #c8c9cc;
   }
 
-  &:focus::after {
-    background-color: $base;
+  &:focus .video__btn-icon {
+    color: $base;
   }
 
   &:hover {
     border: 3px solid rgba($color: $base, $alpha: 0.6);
   }
 
+  &:hover .video__btn-icon {
+    color: rgba($color: $base, $alpha: 0.6);
+  }
+
   &:hover::before {
     background-image: none;
     background-color: $base-white;
-  }
-
-  &:hover::after {
-    background-color: rgba($color: $base, $alpha: 0.6);
   }
 
   &:active {
@@ -82,8 +71,8 @@
     background-color: $base-white;
   }
 
-  &:active::after {
-    background-color: $base;
+  &:active .video__btn-icon {
+    color: $base;
   }
 
   &:disabled {
@@ -96,10 +85,20 @@
     background-color: $base-white;
   }
 
-  &:disabled::after {
-    background-color: rgba($color: $base, $alpha: 0.3);
+  &:disabled .video__btn-icon {
+    color: rgba($color: $base, $alpha: 0.3);
   }
 }
+
+.video__btn-icon {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-42%, -50%);
+}
+
 
 @media (min-width: $tablet-width) {
   .video {
@@ -131,6 +130,12 @@
       width: 72px;
       height: 72px;
     }
+  }
+
+  .video__btn-icon {
+    width: 17px;
+    height: 17px;
+    transform: translate(-38%, -50%);
   }
 
   .video__img {
