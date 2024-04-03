@@ -51,9 +51,11 @@
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-image: url("/__spritemap#sprite-play-ru");
+    background-image: url("/__spritemap#sprite-ru");
+    // mask-image: url("../../__spritemap#sprite-ok");
     background-repeat: no-repeat;
-    background-position: top center;
+    // background-position: top center;
+    background-position: 1px -44px;
   }
 }
 
