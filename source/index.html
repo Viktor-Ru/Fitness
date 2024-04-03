@@ -145,80 +145,89 @@
 
     <section class="juri container" data-test="juri">
       <h2 class="juri__title">Жюри</h2>
-      <ul class="juri__list">
-        <li class="juri-card juri-card--1" tabindex="0">
-          <div class="juri-card__img-wrapper">
-            <picture>
-              <source type="image/webp" srcset="img/juri-card-1.webp">
-              <img class="juri-card__img" src="img/juri-card-1.jpg" width="227" height="280" alt="Анна Павлова.">
-            </picture>
-            <b class="juri-card__name">Анна Павлова</b>
-          </div>
-          <div class="juri-card__info-wrapper">
-            <h3 class="juri-card__title">Анна Павлова</h3>
-            <p class="juri-card__info">CrossFit</p>
-            <ul class="juri-card__list">
-              <li class="juri-card__item">Certified Level 3 Trainer</li>
-              <li class="juri-card__item">Победитель чемпионата России по CrossFit</li>
-              <li class="juri-card__item">Опыт — 6 лет</li>
-            </ul>
-          </div>
-        </li>
-        <li class="juri-card juri-card--2" tabindex="0">
-          <div class="juri-card__img-wrapper">
-            <picture>
-              <source type="image/webp" srcset="img/juri-card-2.webp">
-              <img class="juri-card__img" src="img/juri-card-2.jpg" width="227" height="280" alt="Алексей Лавров.">
-            </picture>
-            <b class="juri-card__name">Алексей Лавров</b>
-          </div>
-          <div class="juri-card__info-wrapper">
-            <h3 class="juri-card__title">Алексей Лавров</h3>
-            <p class="juri-card__info">CrossFit</p>
-            <ul class="juri-card__list">
-              <li class="juri-card__item">Certified Level 3 Trainer</li>
-              <li class="juri-card__item">Победитель чемпионата России по CrossFit</li>
-              <li class="juri-card__item">Опыт — 6 лет</li>
-            </ul>
-          </div>
-        </li>
-        <li class="juri-card juri-card--3" tabindex="0">
-          <div class="juri-card__img-wrapper">
-            <picture>
-              <source type="image/webp" srcset="img/juri-card-3.webp">
-              <img class="juri-card__img" src="img/juri-card-3.jpg" width="227" height="280" alt="Александр Пашков.">
-            </picture>
-            <b class="juri-card__name">Александр Пашков</b>
-          </div>
-          <div class="juri-card__info-wrapper">
-            <h3 class="juri-card__title">Александр Пашков</h3>
-            <p class="juri-card__info">CrossFit</p>
-            <ul class="juri-card__list">
-              <li class="juri-card__item">Certified Level 3 Trainer</li>
-              <li class="juri-card__item">Победитель чемпионата России по CrossFit</li>
-              <li class="juri-card__item">Опыт — 6 лет</li>
-            </ul>
-          </div>
-        </li>
-        <li class="juri-card juri-card--4" tabindex="0">
-          <div class="juri-card__img-wrapper">
-            <picture>
-              <source type="image/webp" srcset="img/juri-card-4.webp">
-              <img class="juri-card__img" src="img/juri-card-4.jpg" width="227" height="280" alt="Мария Кетова.">
-            </picture>
-            <b class="juri-card__name">Мария Кетова</b>
-          </div>
-          <div class="juri-card__info-wrapper">
-            <h3 class="juri-card__title">Мария Кетова</h3>
-            <p class="juri-card__info">CrossFit</p>
-            <ul class="juri-card__list">
-              <li class="juri-card__item">Certified Level 3 Trainer</li>
-              <li class="juri-card__item">Победитель чемпионата России по CrossFit</li>
-              <li class="juri-card__item">Опыт — 6 лет</li>
-            </ul>
-          </div>
-        </li>
-      </ul>
+      <div class="control">
+        <button class="control__btn control__btn--juri" type="button">
+          <span class="visually-hidden">предыдущий слайд</span>
+        </button>
+        <button class="control__btn control__btn--end control__btn--end-juri" type="button">
+          <span class="visually-hidden">следующий слайд</span>
+        </button>
+
+        <ul class="juri__list">
+          <li class="juri-card juri-card--1" tabindex="0">
+            <div class="juri-card__img-wrapper">
+              <picture>
+                <source type="image/webp" srcset="img/juri-card-1.webp">
+                <img class="juri-card__img" src="img/juri-card-1.jpg" width="227" height="280" alt="Анна Павлова.">
+              </picture>
+              <b class="juri-card__name">Анна Павлова</b>
+            </div>
+            <div class="juri-card__info-wrapper">
+              <h3 class="juri-card__title">Анна Павлова</h3>
+              <p class="juri-card__info">CrossFit</p>
+              <ul class="juri-card__list">
+                <li class="juri-card__item">Certified Level 3 Trainer</li>
+                <li class="juri-card__item">Победитель чемпионата России по CrossFit</li>
+                <li class="juri-card__item">Опыт — 6 лет</li>
+              </ul>
+            </div>
+          </li>
+          <li class="juri-card juri-card--2" tabindex="0">
+            <div class="juri-card__img-wrapper">
+              <picture>
+                <source type="image/webp" srcset="img/juri-card-2.webp">
+                <img class="juri-card__img" src="img/juri-card-2.jpg" width="227" height="280" alt="Алексей Лавров.">
+              </picture>
+              <b class="juri-card__name">Алексей Лавров</b>
+            </div>
+            <div class="juri-card__info-wrapper">
+              <h3 class="juri-card__title">Алексей Лавров</h3>
+              <p class="juri-card__info">CrossFit</p>
+              <ul class="juri-card__list">
+                <li class="juri-card__item">Certified Level 3 Trainer</li>
+                <li class="juri-card__item">Победитель чемпионата России по CrossFit</li>
+                <li class="juri-card__item">Опыт — 6 лет</li>
+              </ul>
+            </div>
+          </li>
+          <li class="juri-card juri-card--3" tabindex="0">
+            <div class="juri-card__img-wrapper">
+              <picture>
+                <source type="image/webp" srcset="img/juri-card-3.webp">
+                <img class="juri-card__img" src="img/juri-card-3.jpg" width="227" height="280" alt="Александр Пашков.">
+              </picture>
+              <b class="juri-card__name">Александр Пашков</b>
+            </div>
+            <div class="juri-card__info-wrapper">
+              <h3 class="juri-card__title">Александр Пашков</h3>
+              <p class="juri-card__info">CrossFit</p>
+              <ul class="juri-card__list">
+                <li class="juri-card__item">Certified Level 3 Trainer</li>
+                <li class="juri-card__item">Победитель чемпионата России по CrossFit</li>
+                <li class="juri-card__item">Опыт — 6 лет</li>
+              </ul>
+            </div>
+          </li>
+          <li class="juri-card juri-card--4" tabindex="0">
+            <div class="juri-card__img-wrapper">
+              <picture>
+                <source type="image/webp" srcset="img/juri-card-4.webp">
+                <img class="juri-card__img" src="img/juri-card-4.jpg" width="227" height="280" alt="Мария Кетова.">
+              </picture>
+              <b class="juri-card__name">Мария Кетова</b>
+            </div>
+            <div class="juri-card__info-wrapper">
+              <h3 class="juri-card__title">Мария Кетова</h3>
+              <p class="juri-card__info">CrossFit</p>
+              <ul class="juri-card__list">
+                <li class="juri-card__item">Certified Level 3 Trainer</li>
+                <li class="juri-card__item">Победитель чемпионата России по CrossFit</li>
+                <li class="juri-card__item">Опыт — 6 лет</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section class="features" data-test="features">
@@ -368,21 +377,30 @@
     </section>
     <section class="reviews container" data-test="reviews">
       <h2 class="reviews__title">Отзывы</h2>
-      <ul class="reviews__list">
-        <li class="reviews__item">
-          <div class="reviews__content">
-            <picture>
-              <source type="image/webp" srcset="img/reviews.webp">
-              <img src="img/reviews.png" alt="Анна Орлова." width="68" height="68">
-            </picture>
-            <div>
-              <h3>Анна Орлова</h3>
-              <p>«Хожу в Supergym уже больше года. Нравится, что в клубе всегда чисто, тренажёры обновляют, персонал
-                дружелюбный. Зал просторный, даже в вечернее время нет очередей»</p>
+      <div class="control">
+        <button class="control__btn control__btn--reviews" type="button">
+          <span class="visually-hidden">предыдущий слайд</span>
+        </button>
+        <button class="control__btn control__btn--end control__btn--end-reviews" type="button">
+          <span class="visually-hidden">следующий слайд</span>
+        </button>
+
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <div class="reviews__content">
+              <picture>
+                <source type="image/webp" srcset="img/reviews.webp">
+                <img src="img/reviews.png" alt="Анна Орлова." width="68" height="68">
+              </picture>
+              <div>
+                <h3>Анна Орлова</h3>
+                <p>«Хожу в Supergym уже больше года. Нравится, что в клубе всегда чисто, тренажёры обновляют, персонал
+                  дружелюбный. Зал просторный, даже в вечернее время нет очередей»</p>
+              </div>
             </div>
-          </div>
-        </li>
-      </ul>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <div class="form-contacts-wrapper" data-test="form">
