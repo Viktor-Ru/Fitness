@@ -12,8 +12,11 @@
   background-color: $base-white;
   border: 7px solid $base-white;
 
-  &:hover,
-  &:focus {
+  &:focus-within {
+    border-image: linear-gradient(97.05deg, #ed0233 17.6%, #003eb7 95.31%) 1;
+  }
+
+  &:has(.price-list__btn:hover) {
     border-image: linear-gradient(97.05deg, #ed0233 17.6%, #003eb7 95.31%) 1;
   }
 }
@@ -183,10 +186,10 @@
     }
   }
 
-    .price-list__price-shadow {
-      top: 143px;
-      left: 73px;
-    }
+  .price-list__price-shadow {
+    top: 143px;
+    left: 73px;
+  }
 
   .price-list__btn {
     width: 195px;
