@@ -38,12 +38,20 @@
   .about {
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 32px;
+    padding-bottom: 35px;
+  }
+
+  .about__container {
+    display: block;
+    width: 678px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin: 0 auto;
   }
 
   .about__wrapper-text {
     width: 678px;
-    padding: 0 45px;
+    padding: 0;
   }
 
   .about__title {
@@ -66,12 +74,18 @@
 @media (min-width: $desktop-width) {
   .about {
     width: 1160px;
-    padding: 119px 103px 124px;
+    padding: 122px 103px 124px;
     margin: 0 auto;
     text-align: left;
     display: grid;
     column-gap: 25px;
     grid-template-columns: 1fr 760px;
+  }
+
+  .about__container {
+    width: 1160px;
+    padding-left: 103px;
+    padding-right: 103px;
   }
 
   .about__wrapper-text {

@@ -1,7 +1,9 @@
 .hero {
   background: linear-gradient(90deg, #1c3477 0%, #1a3578 39.11%, #73184b 75.5%, #b4022a 100%);
   color: $base-white;
-  padding-bottom: 30px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 32px;
 }
 
 .hero__city {
@@ -18,7 +20,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  margin-bottom: 48px;
+  margin-bottom: 47px;
 }
 
 .hero__list {
@@ -78,51 +80,60 @@
 }
 
 @media (min-width: $tablet-width) {
-  .hero {
-    padding-bottom: 99px;
-  }
 
-  .hero__bg-wrapper {
-    padding-right: 354px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    background-image: url("../img/hero-img.jpg");
-    background-position: right top;
-    background-repeat: no-repeat;
-  }
 
-  .hero__wrapper {
-    justify-content: space-between;
-    margin-bottom: 50px;
-  }
 
-  .hero__city {
-    margin-bottom: 9px;
-    font-size: 42px;
-    line-height: 42px;
-  }
 
-  .hero__title {
-    font-size: 72px;
-    line-height: 85px;
-    width: 190px;
-    letter-spacing: 0.02em;
-  }
 
-  .hero__list {
-    padding-bottom: 24px;
-  }
+  // .hero {
+  //   padding: 0;
+  //   padding-bottom: 100px;
+  // }
 
-  .hero__item {
-    padding-bottom: 2px;
-  }
+  // .hero__bg-wrapper {
+  //   padding-right: 352px;
+  //   padding-top: 32px;
+  //   padding-bottom: 32px;
+  //   background-image: url("../img/hero-img.jpg");
+  //   background-position: right top;
+  //   background-repeat: no-repeat;
+  // }
 
-  .hero__button {
-    width: 185px;
-    padding: 20px;
-    padding-bottom: 18px;
-    margin-left: auto;
-  }
+  // .hero__wrapper {
+  //   justify-content: space-between;
+  //   margin-bottom: 50px;
+  // }
+
+  // .hero__city {
+  //   margin-bottom: 9px;
+  //   margin-right: 2px;
+  //   font-size: 42px;
+  //   line-height: 42px;
+  // }
+
+  // .hero__title {
+  //   font-size: 72px;
+  //   line-height: 85px;
+  //   width: 187px;
+  //   letter-spacing: 2px;
+  // }
+
+  // .hero__list {
+  //   padding-bottom: 25px;
+  //   line-height: 22px;
+  // }
+
+  // .hero__item {
+  //   // padding-bottom: 2px;
+  // }
+
+  // .hero__button {
+  //   width: 185px;
+  //   padding: 21px;
+  //   margin-left: auto;
+  //   margin-right: 2px;
+  //   line-height: 12px;
+  // }
 }
 
 @media (min-width: $desktop-width) {

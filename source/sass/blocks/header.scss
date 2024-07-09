@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 4px;
-  margin-bottom: 57px;
+  margin-bottom: 56px;
 }
 
 .header__tel {
@@ -38,13 +38,34 @@
 
 @media (min-width: $tablet-width) {
   .header {
-    padding-top: 21px;
-    margin-bottom: 21px;
+    // background-color: aqua;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-top: 31px;
   }
 
   .header__tel {
-    letter-spacing: 0.02em;
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
   }
+
+
+  // .header {
+  //   padding-top: 21px;
+  //   margin-bottom: 18px;
+  // }
+
+  // .header__tel {
+  //   font-size: 24px;
+  //   line-height: 24px;
+  //   letter-spacing: normal;
+  //   padding-top: 9px;
+  // }
 }
 
 @media (min-width: $desktop-width) {
