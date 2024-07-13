@@ -80,60 +80,51 @@
 }
 
 @media (min-width: $tablet-width) {
+  .hero {
+    padding: 0;
+    padding-bottom: 100px;
+  }
 
+  .hero__bg-wrapper {
+    padding-right: 352px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-image: url("../img/hero-img.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
 
+  .hero__wrapper {
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
 
+  .hero__city {
+    margin-bottom: 9px;
+    margin-right: 2px;
+    font-size: 42px;
+    line-height: 42px;
+  }
 
+  .hero__title {
+    font-size: 72px;
+    line-height: 85px;
+    width: 187px;
+    letter-spacing: 2px;
+  }
 
-  // .hero {
-  //   padding: 0;
-  //   padding-bottom: 100px;
-  // }
+  .hero__list {
+    padding-bottom: 25px;
+    line-height: 22px;
+  }
 
-  // .hero__bg-wrapper {
-  //   padding-right: 352px;
-  //   padding-top: 32px;
-  //   padding-bottom: 32px;
-  //   background-image: url("../img/hero-img.jpg");
-  //   background-position: right top;
-  //   background-repeat: no-repeat;
-  // }
-
-  // .hero__wrapper {
-  //   justify-content: space-between;
-  //   margin-bottom: 50px;
-  // }
-
-  // .hero__city {
-  //   margin-bottom: 9px;
-  //   margin-right: 2px;
-  //   font-size: 42px;
-  //   line-height: 42px;
-  // }
-
-  // .hero__title {
-  //   font-size: 72px;
-  //   line-height: 85px;
-  //   width: 187px;
-  //   letter-spacing: 2px;
-  // }
-
-  // .hero__list {
-  //   padding-bottom: 25px;
-  //   line-height: 22px;
-  // }
-
-  // .hero__item {
-  //   // padding-bottom: 2px;
-  // }
-
-  // .hero__button {
-  //   width: 185px;
-  //   padding: 21px;
-  //   margin-left: auto;
-  //   margin-right: 2px;
-  //   line-height: 12px;
-  // }
+  .hero__button {
+    width: 185px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: 2px;
+    line-height: 12px;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -158,6 +149,7 @@
     margin-bottom: 41px;
     font-size: 54px;
     line-height: 54px;
+    margin-right: 0;
   }
 
   .hero__title {
@@ -174,7 +166,8 @@
 
   .hero__button {
     width: 270px;
-    padding: 25px;
+    padding: 27px;
     padding-bottom: 23px;
+    margin-right: 0;
   }
 }
