@@ -1,12 +1,12 @@
 .juri-card {
-  width: 227px;
-  height: 280px;
+  width: 260px;
+  height: 300px;
   position: relative;
   margin: 0 auto;
 }
 
-.juri-card--1,
-.juri-card--2,
+.juri-card--2, //TODO: Переделать селектор
+.juri-card--3,
 .juri-card--4 {
   display: none;
 }
@@ -17,8 +17,8 @@
 
 .juri-card__img {
   display: block;
-  width: 227px;
-  height: 280px;
+  width: 260px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -84,7 +84,7 @@
     height: 300px;
   }
 
-  .juri-card--3,
+  .juri-card--3,  //TODO: Переделать селектор
   .juri-card--4 {
     display: none;
   }

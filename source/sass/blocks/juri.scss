@@ -1,5 +1,5 @@
 .juri {
-  padding-top: 67px;
+  padding-top: 41px;
   padding-bottom: 40px;
 }
 
@@ -21,7 +21,7 @@
 
 @media (min-width: $tablet-width) {
   .juri {
-    padding-top: 59px;
+    padding-top: 31px;
     padding-bottom: 58px;
   }
 
@@ -40,12 +40,8 @@
 
 @media (min-width: $desktop-width) {
   .juri {
-    padding-top: 200px;
+    padding-top: 101px;
     padding-bottom: 100px;
-  }
-
-  .juri__title {
-    text-align: left;
   }
 
   .juri__list {
