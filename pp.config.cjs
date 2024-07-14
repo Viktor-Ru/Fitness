@@ -1,8 +1,8 @@
 const desktopSections = [
   // {section: 'hero', misMatchThreshold: 0.7},
   // {section: 'about', misMatchThreshold: 0.9},
-  {section: 'price', misMatchThreshold: 0.9},
-  // {section: 'games', misMatchThreshold: 0.9},
+  // {section: 'price', misMatchThreshold: 0.9},
+  {section: 'games', misMatchThreshold: 0.9},
   // {section: 'juri', misMatchThreshold: 0.9},
   // {section: 'features', misMatchThreshold: 0.8},
   // {section: 'offers', misMatchThreshold: 0.9},
@@ -15,8 +15,8 @@ const desktopSections = [
 const tabletSections = [
   // {section: 'hero', misMatchThreshold: 1.0},
   // {section: 'about', misMatchThreshold: 0.8},
-  {section: 'price', misMatchThreshold: 0.7},
-  // {section: 'games', misMatchThreshold: 0.8},
+  // {section: 'price', misMatchThreshold: 0.7},
+  {section: 'games', misMatchThreshold: 0.8},
   // {section: 'juri', misMatchThreshold: 0.7},
   // {section: 'features', misMatchThreshold: 1.6},
   // {section: 'offers', misMatchThreshold: 0.7},
@@ -29,8 +29,8 @@ const tabletSections = [
 const mobileSections = [
   // {section: 'hero', misMatchThreshold: 3.7},
   // {section: 'about', misMatchThreshold: 1.8},
-  {section: 'price', misMatchThreshold: 0.9},
-  // {section: 'games', misMatchThreshold: 1.1},
+  // {section: 'price', misMatchThreshold: 0.9},
+  {section: 'games', misMatchThreshold: 1.1},
   // {section: 'juri', misMatchThreshold: 0.7},
   // {section: 'features', misMatchThreshold: 2.7},
   // {section: 'offers', misMatchThreshold: 1.4},
