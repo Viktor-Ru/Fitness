@@ -1,5 +1,5 @@
 .faq {
-  padding-top: 72px;
+  padding-top: 71px;
   padding-bottom: 69px;
   background-color: $background-additional;
 }
@@ -11,7 +11,7 @@
   font-weight: 600;
   text-align: center;
   margin: 0;
-  margin-bottom: 33px;
+  margin-bottom: 34px;
 }
 
 .faq__list-togle {
@@ -33,7 +33,6 @@
   cursor: pointer;
   width: 100%;
   padding: 14px;
-  padding-bottom: 15px;
 
   &:focus:not(:disabled) {
     border: 1px solid $base;

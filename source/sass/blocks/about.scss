@@ -37,15 +37,9 @@
 @media (min-width: $tablet-width) {
   .about {
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 35px;
-  }
-
-  .about__container {
+    padding: 60px 45px 35px;
     display: block;
     width: 678px;
-    padding-left: 45px;
-    padding-right: 45px;
     margin: 0 auto;
   }
 
@@ -80,12 +74,6 @@
     display: grid;
     column-gap: 25px;
     grid-template-columns: 1fr 760px;
-  }
-
-  .about__container {
-    width: 1160px;
-    padding-left: 103px;
-    padding-right: 103px;
   }
 
   .about__wrapper-text {

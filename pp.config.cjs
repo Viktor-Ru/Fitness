@@ -1,43 +1,43 @@
 const desktopSections = [
   // {section: 'hero', misMatchThreshold: 0.7},
-  // {section: 'about', misMatchThreshold: 0.9},
+  {section: 'about', misMatchThreshold: 0.9},
   // {section: 'price', misMatchThreshold: 0.9},
   // {section: 'games', misMatchThreshold: 0.9},
   // {section: 'juri', misMatchThreshold: 0.9},
   // {section: 'features', misMatchThreshold: 0.8},
   // {section: 'offers', misMatchThreshold: 0.9},
   // {section: 'faq', misMatchThreshold: 0.9}, //BUG
-  {section: 'reviews', misMatchThreshold: 0.7},
-  // {section: 'form', misMatchThreshold: 0.9},
-  // {section: 'footer', misMatchThreshold: 1.0}
+  // {section: 'reviews', misMatchThreshold: 0.7},
+  // {section: 'form', misMatchThreshold: 0.9}, //BUG
+  // {section: 'footer', misMatchThreshold: 1.0} //BUG
 ];
 
 const tabletSections = [
   // {section: 'hero', misMatchThreshold: 1.0},
-  // {section: 'about', misMatchThreshold: 0.8},
+  {section: 'about', misMatchThreshold: 0.8},
   // {section: 'price', misMatchThreshold: 0.7},
   // {section: 'games', misMatchThreshold: 0.8},
   // {section: 'juri', misMatchThreshold: 0.7},
   // {section: 'features', misMatchThreshold: 1.6},
   // {section: 'offers', misMatchThreshold: 0.7},
   // {section: 'faq', misMatchThreshold: 1.6}, //BUG
-  {section: 'reviews', misMatchThreshold: 1.3},
-  // {section: 'form', misMatchThreshold: 1.0},
-  // {section: 'footer', misMatchThreshold: 1.9}
+  // {section: 'reviews', misMatchThreshold: 1.3},
+  // {section: 'form', misMatchThreshold: 1.0}, //BUG
+  // {section: 'footer', misMatchThreshold: 1.9} //BUG
 ];
 
 const mobileSections = [
   // {section: 'hero', misMatchThreshold: 3.7},
-  // {section: 'about', misMatchThreshold: 1.8},
+  {section: 'about', misMatchThreshold: 1.8},
   // {section: 'price', misMatchThreshold: 0.9},
   // {section: 'games', misMatchThreshold: 1.1},
   // {section: 'juri', misMatchThreshold: 0.7},
   // {section: 'features', misMatchThreshold: 2.7},
   // {section: 'offers', misMatchThreshold: 1.4},
   // {section: 'faq', misMatchThreshold: 1.7}, //BUG
-  {section: 'reviews', misMatchThreshold: 2.7},
-  // {section: 'form', misMatchThreshold: 1.6},
-  // {section: 'footer', misMatchThreshold: 2.0}
+  // {section: 'reviews', misMatchThreshold: 2.7},
+  // {section: 'form', misMatchThreshold: 1.6}, //BUG
+  // {section: 'footer', misMatchThreshold: 2.0} //BUG
 ];
 
 const VIEWPORTS = {
