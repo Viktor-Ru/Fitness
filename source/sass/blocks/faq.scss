@@ -67,13 +67,13 @@
 }
 
 .faq__list-question-item {
-  border-top: 1px solid $base;
+  border-top: 1px solid #74819c;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .faq__list-question-item:last-child {
-  border-bottom: 1px solid $base;
+  border-bottom: 1px solid #74819c;
 }
 
 .faq__list-question-item div {
@@ -93,8 +93,8 @@
   display: none;
   font-size: 16px;
   line-height: 20px;
-  margin-top: 19px;
-  margin-bottom: 2px;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .faq__list-question-item button {
@@ -110,7 +110,7 @@
   &::before {
     position: absolute;
     content: "";
-    width: 20px;
+    width: 14px;
     height: 1px;
     background-color: $base;
     left: 50%;
@@ -121,7 +121,7 @@
     position: absolute;
     content: "";
     width: 1px;
-    height: 20px;
+    height: 14px;
     background-color: $base;
     top: 50%;
     transform: translate(0, -50%);
@@ -188,7 +188,7 @@
 
 @media (min-width: $tablet-width) {
   .faq {
-    padding-top: 62px;
+    padding-top: 61px;
     padding-bottom: 60px;
   }
 
@@ -200,7 +200,7 @@
 
   .faq__list-togle {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-bottom: 46px;
+    margin-bottom: 45px;
   }
 
   .faq__list-togle-btn {
@@ -210,12 +210,12 @@
   }
 
   .faq__list-question-item {
-    padding-top: 25px;
-    padding-bottom: 26px;
+    padding-top: 24px;
+    padding-bottom: 22px;
   }
 
   .faq__list-question-item--active {
-    padding-bottom: 24px;
+    padding-bottom: 23px;
   }
 
   .faq__list-question-item b {
@@ -229,18 +229,30 @@
     font-size: 18px;
     line-height: 24px;
     width: 560px;
-    margin-top: 8px;
+    margin-top: 9px;
   }
 
   .faq__list-question-item button {
     width: 40px;
     height: 40px;
+
+    &::before {
+      width: 20px;
+    }
+
+    &::after {
+      height: 20px;
+    }
+  }
+
+  .faq__list-question-item br{
+   display: none;
   }
 }
 
 @media (min-width: $desktop-width) {
   .faq {
-    padding-top: 103px;
+    padding-top: 101px;
     padding-bottom: 101px;
   }
 
@@ -262,12 +274,12 @@
   }
 
   .faq__list-togle-btn {
-    padding-top: 18px;
-    padding-bottom: 16px;
+    padding-top: 19px;
+    padding-bottom: 15px;
   }
 
   .faq__list-togle-item {
-    margin-bottom: 11px;
+    margin-bottom: 10px;
   }
 
   .faq__list-question-item {
@@ -287,6 +299,6 @@
 
   .faq__list-question-item p {
     width: 660px;
-    margin-top: 20px;
+    margin-top: 23px;
   }
 }

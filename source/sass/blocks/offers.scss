@@ -23,7 +23,7 @@
   text-align: center;
   border-style: solid;
   border-width: 7px;
-  border-image: linear-gradient(97.05deg, #ed0233 17.6%, #003eb7 95.31%) 1;
+  border-image: linear-gradient(-45deg, #00359f 17.6%, #d10a42  95.31%) 1;
   box-sizing: border-box;
   width: 290px;
   padding: 0 15px;
@@ -64,13 +64,13 @@
   font-size: 64px;
   line-height: 64px;
   font-weight: 700;
-  margin-bottom: 29px;
+  margin-bottom: 27px;
 }
 
 .offers__content--promo p {
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .offers__img {
@@ -83,6 +83,7 @@
 
 .offers__link {
   display: block;
+  font-weight: 700;
   margin: 0 auto;
   color: inherit;
   text-transform: uppercase;
