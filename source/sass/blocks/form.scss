@@ -11,7 +11,7 @@
   line-height: 32px;
   font-weight: 600;
   margin: 0;
-  margin-bottom: 33px;
+  margin-bottom: 32px;
 }
 
 .form__input {
@@ -19,22 +19,25 @@
   box-sizing: border-box;
   width: 100%;
   color: $base-white;
+  opacity: 0.4;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid rgba($color: $base-white, $alpha: 0.6);
-  margin-bottom: 35px;
-  padding: 6px;
-  padding-left: 0;
+  margin-bottom: 33px;
+  padding: 6px 6px 7px 0;
 
   &::placeholder {
+    opacity: 1;
     color: $base-white;
   }
 
   &:focus {
+    opacity: 1;
     outline: 1px solid $base-white;
   }
 
   &:hover:not(:disabled) {
+    opacity: 1;
     border-bottom: 1px solid $base-white;
   }
 
@@ -43,18 +46,26 @@
   }
 }
 
+.form__input--tel {
+  margin-bottom: 36px;
+}
+
 .form__button {
   display: block;
   box-sizing: border-box;
   width: 100%;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
   background-color: transparent;
-  border: 1px solid $base-white;
+  border: 2px solid $base-white;
   color: $base-white;
   cursor: pointer;
-  padding: 20px 5px 22px;
+  padding: 22px 5px;
 
   &:hover:not(:disabled) {
-    border: 1px solid rgba($color: $base-white, $alpha: 0.6);
+    border: 2px solid rgba($color: $base-white, $alpha: 0.6);
   }
 
   &:disabled {
