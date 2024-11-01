@@ -11,11 +11,19 @@
     display: block;
     margin: 0;
   }
+
+  .logo--footer {
+    padding-top: 12px;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .logo {
     width: 130px;
     height: 26px;
+  }
+
+  .logo--footer {
+    padding-top: 9px;
   }
 }
