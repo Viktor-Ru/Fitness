@@ -13,7 +13,7 @@
   line-height: 32px;
   font-weight: 600;
   margin: 0;
-  margin-bottom: 38px;
+  margin-bottom: 37px;
 }
 
 .contacts__list {
@@ -23,20 +23,22 @@
 }
 
 .contacts__item {
-  margin-bottom: 28px;
+  margin-bottom: 26px;
 }
 
 .contacts__sup-title {
   font-size: 20px;
   line-height: 20px;
+  font-weight: 400;
   margin: 0;
-  margin-bottom: 11px;
+  margin-bottom: 13px;
 }
 
 .contacts__text {
   font-style: normal;
   font-size: 14px;
   line-height: 20px;
+  font-weight: 400;
 }
 
 .contacts__link {
@@ -113,8 +115,16 @@
     margin: 0;
     margin-left: 103px;
     text-align: left;
-    padding-top: 61px;
+    padding-top: 60px;
     padding-bottom: 60px;
+  }
+
+  .contacts__title {
+    margin-bottom: 36px;
+  }
+
+  .contacts__sup-title {
+    margin-bottom: 6px;
   }
 
   .contacts__item--phone {

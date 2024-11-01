@@ -93,15 +93,22 @@
   width: 100%;
   margin: 0 auto;
 
-  &:focus {
-    color: $base-white;
-    background-image: linear-gradient(97.05deg, rgba(237, 2, 51, 0.8) 17.6%, rgba(0, 62, 183, 0.8));
+  &:focus:not(.hero__button--disabled) {
+    color: $additional;
+    border-color: $border-additional;
+    background-color: rgba($color: #ffffff, $alpha: 0.8);
   }
 
-  &:hover:not(:disabled),
-  &:active:not(:disabled) {
-    color: $base-white;
-    background-image: linear-gradient(97.05deg, #ed0233 17.6%, #003eb7 95.31%);
+  &:hover:not(.hero__button--disabled) {
+    color: $additional;
+    border-color: $base-white;
+    background-color: $base-white;
+  }
+
+  &:active:not(.hero__button--disabled) {
+    color: $base;
+    border-color: $base-white;
+    background-color: $base-white;
   }
 
   &:disabled {
