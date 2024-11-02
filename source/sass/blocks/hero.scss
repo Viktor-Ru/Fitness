@@ -97,6 +97,13 @@
     background-image: url("../img/hero-img.jpg");
     background-position: right top;
     background-repeat: no-repeat;
+    background-size: 324px 390px;
+  }
+
+  @media (resolution >=2dppx) {
+    .hero__bg-wrapper {
+      background-image: url("../img/hero-img@2x.jpg");
+    }
   }
 
   .hero__wrapper {
@@ -143,6 +150,13 @@
     padding-bottom: 53px;
     background-image: url("../img/hero-img-desktop.jpg");
     background-position: right 72px top;
+    background-size: 500px 524px;
+  }
+
+  @media (resolution >=2dppx) {
+    .hero__bg-wrapper {
+      background-image: url("../img/hero-img-desktop@2x.jpg");
+    }
   }
 
   .hero__wrapper {
