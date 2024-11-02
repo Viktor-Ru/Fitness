@@ -66,7 +66,7 @@
     background-size: 325px 388px;
   }
 
-  @media (resolution >=2dppx) {
+  @media (resolution >= 2dppx) {
     .price {
       background-image: url("../img/price-bg-tablet@2x.png");
     }
@@ -100,7 +100,7 @@
     background-size: 303px 449px;
   }
 
-  @media (resolution >=2dppx) {
+  @media (resolution >= 2dppx) {
     .price {
       background-image: url("../img/price-bg-desktop@2x.png");
       background-position: right bottom 3px;

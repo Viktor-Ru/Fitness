@@ -100,7 +100,7 @@
     background-size: 324px 390px;
   }
 
-  @media (resolution >=2dppx) {
+  @media (resolution >= 2dppx) {
     .hero__bg-wrapper {
       background-image: url("../img/hero-img@2x.jpg");
     }
@@ -153,7 +153,7 @@
     background-size: 500px 524px;
   }
 
-  @media (resolution >=2dppx) {
+  @media (resolution >= 2dppx) {
     .hero__bg-wrapper {
       background-image: url("../img/hero-img-desktop@2x.jpg");
     }
