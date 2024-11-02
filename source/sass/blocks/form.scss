@@ -58,6 +58,18 @@
   margin-bottom: 36px;
 }
 
+.form__input--tel[type="number"]::-webkit-outer-spin-button,
+.form__input--tel[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.form__input--tel[type="number"],
+.form__input--tel[type="number"]:hover,
+.form__input--tel[type="number"]:focus {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
 .form__button {
   display: block;
   box-sizing: border-box;
