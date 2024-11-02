@@ -158,13 +158,17 @@
         <a class="games__btn" href="#">заполнить заявку</a>
       </div>
       <picture>
-        <!-- TODO Ретинизация растра -->
-        <source type="image/webp" media="(min-width: 1366px)" srcset="img/games-desktop.webp">
-        <source type="image/webp" media="(min-width: 768px)" srcset="img/games-tablet.webp">
-        <source type="image/webp" srcset="img/games-mobile.webp">
-        <source media="(min-width: 1366px)" srcset="img/games-desktop.jpg" type="image/jpg">
-        <source media="(min-width: 768px)" srcset="img/games-tablet.jpg" type="image/jpg">
-        <img class="games__img" src="img/games-mobile.jpg" width="320" height="280" alt="тренажёрный зал.">
+        <source type="image/webp" media="(min-width: 1366px)"
+          srcset="img/games-desktop.webp, img/games-desktop@2x.webp 2x">
+        <source type="image/webp" media="(min-width: 768px)"
+          srcset="img/games-tablet.webp, img/games-tablet@2x.webp 2x">
+        <source type="image/webp" srcset="img/games-mobile.webp, img/games-mobile@2x.webp 2x">
+
+        <source media="(min-width: 1366px)" srcset="img/games-desktop.jpg, img/games-desktop@2x.jpg 2x"
+          type="image/jpg">
+        <source media="(min-width: 768px)" srcset="img/games-tablet.jpg, img/games-tablet@2x.jpg 2x" type="image/jpg">
+        <img class="games__img" src="img/games-mobile.jpg" srcset="img/games-mobile@2x.jpg 2x" width="320" height="280"
+          alt="тренажёрный зал.">
       </picture>
     </section>
 
@@ -181,13 +185,11 @@
         <ul class="juri__list">
           <li class="juri-card juri-card--1" tabindex="0">
             <div class="juri-card__img-wrapper">
-
               <picture>
-                <!-- TODO Ретинизация растра -->
-                <source type="image/webp" srcset="img/juri-card-1.webp">
-                <img class="juri-card__img" src="img/juri-card-1.jpg" width="260" height="300" alt="Анна Павлова.">
+                <source type="image/webp" srcset="img/juri-card-1.webp, img/juri-card-1@2x.webp 2x">
+                <img class="juri-card__img" src="img/juri-card-1.jpg" srcset="img/juri-card-1@2x.jpg 2x" width="260"
+                  height="300" alt="Анна Павлова.">
               </picture>
-
               <b class="juri-card__name">Анна Павлова</b>
             </div>
             <div class="juri-card__info-wrapper">
@@ -202,13 +204,11 @@
           </li>
           <li class="juri-card juri-card--2" tabindex="0">
             <div class="juri-card__img-wrapper">
-
               <picture>
-                <!-- TODO Ретинизация растра -->
-                <source type="image/webp" srcset="img/juri-card-2.webp">
-                <img class="juri-card__img" src="img/juri-card-2.jpg" width="260" height="300" alt="Алексей Лавров.">
+                <source type="image/webp" srcset="img/juri-card-2.webp, img/juri-card-2@2x.webp 2x">
+                <img class="juri-card__img" src="img/juri-card-2.jpg" srcset="img/juri-card-2@2x.jpg 2x" width="260"
+                  height="300" alt="Алексей Лавров.">
               </picture>
-
               <b class="juri-card__name">Алексей Лавров</b>
             </div>
             <div class="juri-card__info-wrapper">
@@ -223,13 +223,11 @@
           </li>
           <li class="juri-card juri-card--3" tabindex="0">
             <div class="juri-card__img-wrapper">
-
               <picture>
-                <!-- TODO Ретинизация растра -->
-                <source type="image/webp" srcset="img/juri-card-3.webp">
-                <img class="juri-card__img" src="img/juri-card-3.jpg" width="260" height="300" alt="Александр Пашков.">
+                <source type="image/webp" srcset="img/juri-card-3.webp, img/juri-card-3@2x.webp 2x">
+                <img class="juri-card__img" src="img/juri-card-3.jpg" srcset="img/juri-card-3@2x.jpg 2x" width="260"
+                  height="300" alt="Александр Пашков.">
               </picture>
-
               <b class="juri-card__name">Александр Пашков</b>
             </div>
             <div class="juri-card__info-wrapper">
@@ -244,13 +242,11 @@
           </li>
           <li class="juri-card juri-card--4" tabindex="0">
             <div class="juri-card__img-wrapper">
-
               <picture>
-                <!-- TODO Ретинизация растра -->
-                <source type="image/webp" srcset="img/juri-card-4.webp">
-                <img class="juri-card__img" src="img/juri-card-4.jpg" width="260" height="300" alt="Мария Кетова.">
+                <source type="image/webp" srcset="img/juri-card-4.webp, img/juri-card-4@2x.webp 2x">
+                <img class="juri-card__img" src="img/juri-card-4.jpg" srcset="img/juri-card-4@2x.jpg 2x" width="260"
+                  height="300" alt="Мария Кетова.">
               </picture>
-
               <b class="juri-card__name">Мария Кетова</b>
             </div>
             <div class="juri-card__info-wrapper">
@@ -331,14 +327,18 @@
             <a class="offers__link" href="#">подробнее</a>
           </div>
           <picture>
-            <!-- TODO Ретинизация растра -->
-            <source type="image/webp" media="(min-width: 1366px)" srcset="img/offers-desktop.webp">
-            <source type="image/webp" media="(min-width: 768px)" srcset="img/offers-tablet.webp">
-            <source type="image/webp" srcset="img/offers-mobile.webp">
-            <source media="(min-width: 1366px)" srcset="img/offers-desktop.jpg" type="image/jpg">
-            <source media="(min-width: 768px)" srcset="img/offers-tablet.jpg" type="image/jpg">
-            <img class="offers__img" src="img/offers-mobile.jpg" width="320" height="360"
-              alt="Девушка в спортивной форме.">
+            <source type="image/webp" media="(min-width: 1366px)"
+              srcset="img/offers-desktop.webp, img/offers-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)"
+              srcset="img/offers-tablet.webp, img/offers-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/offers-mobile.webp, img/offers-mobile.webp@2x 2x">
+
+            <source media="(min-width: 1366px)" srcset="img/offers-desktop.jpg, img/offers-desktop@2x.jpg 2x"
+              type="image/jpg">
+            <source media="(min-width: 768px)" srcset="img/offers-tablet.jpg, img/offers-tablet@2x.jpg 2x"
+              type="image/jpg">
+            <img class="offers__img" src="img/offers-mobile.jpg" srcset="img/offers-mobile@2x.jpg 2x" width="320"
+              height="360" alt="Девушка в спортивной форме.">
           </picture>
         </li>
         <li class="offers__content">
@@ -432,9 +432,8 @@
           <li class="reviews__item">
             <div class="reviews__content">
               <picture>
-                <!-- TODO Ретинизация растра -->
-                <source type="image/webp" srcset="img/reviews.webp">
-                <img src="img/reviews.png" alt="Анна Орлова." width="68" height="68">
+                <source type="image/webp" srcset="img/reviews.webp, img/reviews@2x.webp 2x">
+                <img src="img/reviews.png" srcset="img/reviews@2x.png 2x" alt="Анна Орлова." width="68" height="68">
               </picture>
               <div>
                 <h3>Анна Орлова</h3>
@@ -523,7 +522,6 @@
         <li class="social-list__item">
           <a class="social-list__link" href="#">
             <span class="visually-hidden">Вконтакте</span>
-            <!--FIXME 13 7 -->
             <svg width="14" height="8">
               <use href="/__spritemap#sprite-vk"></use>
             </svg>
@@ -532,7 +530,6 @@
         <li class="social-list__item">
           <a class="social-list__link" href="#">
             <span class="visually-hidden">Одноклассники</span>
-            <!--FIXME  10 16 -->
             <svg width="11" height="17">
               <use href="/__spritemap#sprite-ok"></use>
             </svg>
@@ -541,7 +538,6 @@
         <li class="social-list__item">
           <a class="social-list__link" href="#">
             <span class="visually-hidden">Reddit</span>
-            <!--FIXME  15 14 -->
             <svg width="16" height="15">
               <use href="/__spritemap#sprite-reddit"></use>
             </svg>
